@@ -1,0 +1,21 @@
+sh-4.4$ vi calculator                                                                                                                                                        
+sh-4.4$ cat calculator                                                                                                                                                       
+echo"------------------------------------------------------"                                                                                                                 
+read -p "First number : " num1                                                                                                                                               
+read -p "Second number : " num2                                                                                                                                              
+                                                                                                                                                                             
+sum=$(($num1 + $num2))                                                                                                                                                       
+sub=$(($num1 - $num2))                                                                                                                                                       
+                                                                                                                                                                             
+echo "Sum is : $sum"                                                                                                                                                         
+echo "Difference is : $sub"                                                                                                                                                 
+echo "------------------------------------------------------"                                                                                                               
+sh-4.4$                                                                                                                                                                      
+sh-4.4$                                                                                                                                                                      
+sh-4.4$ ./calculator                                                                                                                                                         
+./calculator: line 1: echo------------------------------------------------------: command not found                                                                          
+First number : 12                                                                                                                                                            
+Second number : 10                                                                                                                                                           
+Sum is : 22                                                                                                                                                                  
+Difference is : 2                                                                                                                                                            
+------------------------------------------------------                                                                                                                       
