@@ -1,0 +1,20 @@
+sh-4.4$ /bin/bash                                                                                                                                                            
+bash-4.4$ vi                                                                                                                                                                 
+bash-4.4$ vi unix.sh       
+                                                                                                                                                  
+bash-4.4$ cat unix.sh                                                                                                                                                        
+read -p "What is your name : " name                                                                                                                                          
+echo "Hello $name , How are you doing today?"  
+                                                                                                                             
+bash-4.4$ ./unix.sh                                                                                                                                                          
+bash: ./unix.sh: Permission denied            
+                                                                                                                               
+bash-4.4$ chmod 777 unix.sh                 
+                                                                                                                                 
+bash-4.4$ ./unix.sh                                                                                                                                                          
+What is your name : Nikhil                                                                                                                                                   
+Hello Nikhil , How are you doing today?   
+                                                                                                                                   
+bash-4.4$                                                                                                                                                                    
+                                                                                                                                                                             
+                 
