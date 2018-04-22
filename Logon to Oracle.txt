@@ -1,0 +1,9 @@
+sh-4.4$ cat loginDB                                                                                                                                                          
+#logon to Oracle Database                                                                                                                                                    
+                                                                                                                                                                             
+export ORACLE_SID=nikhil                                                                                                                                                     
+sqlplus nikhil/password <<!                                                                                                                                                  
+                                                                                                                                                                             
+select status from v$instance;                                                                                                                                               
+!                                                                                                                                                                            
+                                                                                                                                                                             
