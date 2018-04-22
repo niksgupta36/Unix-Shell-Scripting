@@ -1,0 +1,4 @@
+sh-4.4$ a='Nikhil'                                              
+sh-4.4$ b='Gupta' 
+sh-4.4$ c="$a $b"
+sh-4.4$ echo $c                                                 Nikhil Gupta
